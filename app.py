@@ -46,6 +46,11 @@ def hello():
 
 	#return 'hello' + str(infprob)
 
+@app.route('/about')
+def abouts():
+
+	return render_template('about.html')
+
 
 	
 
